@@ -7,3 +7,5 @@ RUN yum -y update && yum -y install perl-core epel-release  \
     "perl(Crypt::Eksblowfish::Bcrypt)" perl-core procmail "perl(ModPerl::Util)" "perl(Text::CSV_XS)" \
     "perl(DBD::mysql)" "perl(DateTime)" "perl(DateTime::TimeZone)" perl-namespace-clean perl-Sub-Quote perl-Moo \
     "perl(YAML::XS)" "perl(Mail::IMAPClient)" gcc
+
+    COPY otrs-6.0.30./ /opt/otrs
